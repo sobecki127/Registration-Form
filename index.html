@@ -16,28 +16,29 @@
     <div class="container">
       <section class="card">
         <header class="card__header">
-          <a href="#login" class="active">Login</a>
           <a href="#sign-up">Sign Up</a>
         </header>
         <div class="card__tabs">
           <form>
-            <div class="card__inputs">
-              <div class="card__input">
-                <input type="text" placeholder="Username" />
-                <img src="" alt="" />
-              </div>
-
-              <div class="card__input">
-                <input type="password" placeholder="Password" />
-                <img src="" alt="" />
-              </div>
-
-              <input type="checkbox" id="remember-me" />
-              <label for="remember-me">Remember me</label>
+            <div class="card__input">
+              <input type="text" placeholder="Username" />
+              <i class="fas fa-user"></i>
             </div>
-            <button>Login</button>
+
+            <div class="card__input">
+              <input type="password" placeholder="Password" />
+              <i class="fas fa-lock"></i>
+            </div>
+
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+            <i class="fas fa-check"></i>
+            <button>Register</button>
           </form>
         </div>
+        <span
+          >Already a member? <a href="#sign-in" class="active">Sign In</a></span
+        >
       </section>
     </div>
 
